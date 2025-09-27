@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165 35" width="165" height="35">
+	<defs>
+		<image  width="41" height="29" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAdAQMAAAANRdcOAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA/38ye4+5mwAAAAJ0Uk5TAP9bkSK1AAAAi0lEQVR4nGNkYP7DyMDAyMD+46ADkJJ7CKZsV4qxACnLaQaMQKqwj+GjACNDfQPDTw5G/g8MIEr+AZS6YACibvL/+MvCaL9Q/wOIarFhAFEdFgxIvCY7hv9MjPWJ8QdAVKX6AxBVL/gBSjEwwqj/jf0Qav8BEPWXmYGhkfE/AwMmBXISiGKQf/BRAAC2YD2eTuhOQQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 30px;fill: #ff7f32;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+		.t1 { font-size: 30px;fill: #ffffff;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+	</style>
+	<text id="Storify" style="transform: matrix(1,0,0,1,49.636,28.137)" >
+		<tspan x="0" y="0" class="t0">S</tspan><tspan  y="0" class="t1">torif</tspan><tspan  y="0" class="t1">y
+</tspan>
+	</text>
+	<use id="Shape 1" href="#img1" x="5" y="3"/>
+</svg>

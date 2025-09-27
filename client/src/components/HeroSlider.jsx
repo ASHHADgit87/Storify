@@ -32,7 +32,7 @@ const HeroSlider = () => {
   initial={{ opacity: 0, x: -200, rotateY: -60 }}  
   animate={{ opacity: 1, x: 0, rotateY: 0 }}       
   exit={{ opacity: 0, x: 200, rotateY: 60 }}       
-  transition={{ duration: 1.5, ease: "easeInOut" }} 
+  transition={{ duration: 1, ease: "easeInOut" }} 
 />
 
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { assets } from "../assets/assets";
-import { FaShoppingCart, FaSearch, FaBars } from "react-icons/fa"; // ✅ Import FaBars
+import { FaShoppingCart, FaSearch, FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -19,11 +19,11 @@ const Navbar = () => {
 
       {/* Center Menu (Desktop) */}
       <div className="hidden sm:flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
-        <a href="/" className="hover:text-indigo-400">Home</a>
-        <a href="/products" className="hover:text-indigo-400">Products</a>
-        <a href="/blog" className="hover:text-indigo-400">Blog</a>
-        <a href="/about" className="hover:text-indigo-400">About</a>
-        <a href="/contact" className="hover:text-indigo-400">Contact</a>
+        <a href="/" className="hover:text-[#ff7f32]">Home</a>
+        <a href="/products" className="hover:text-[#ff7f32]">Products</a>
+        <a href="/blog" className="hover:text-[#ff7f32]">Blog</a>
+        <a href="/about" className="hover:text-[#ff7f32]">About</a>
+        <a href="/contact" className="hover:text-[#ff7f32]">Contact</a>
 
         {/* Search Bar */}
         <div className="hidden lg:flex items-center text-sm gap-2 border border-gray-600 px-3 rounded-full w-64">
@@ -38,12 +38,15 @@ const Navbar = () => {
 
       {/* Right side (Cart + Login) */}
       <div className="hidden sm:flex items-center gap-6">
-        <div className="relative cursor-pointer">
+        {/* Cart with link */}
+        <a href="/cart" className="relative cursor-pointer">
           <FaShoppingCart className="h-5 w-5 text-white" />
-          <button className="absolute -top-2 -right-3 text-xs text-white bg-indigo-500 w-[18px] h-[18px] rounded-full">
+          <span className="absolute -top-2 -right-3 text-xs text-white bg-[#ff7f32] w-[18px] h-[18px] flex items-center justify-center rounded-full">
             3
-          </button>
-        </div>
+          </span>
+        </a>
+
+        {/* Login Button */}
         <button className="cursor-pointer px-8 py-2 bg-white text-black hover:bg-gray-200 transition rounded-full font-semibold">
           Login
         </button>
@@ -55,7 +58,7 @@ const Navbar = () => {
         aria-label="Menu"
         className="sm:hidden text-white text-2xl"
       >
-        <FaBars /> {/* ✅ Replaced SVG with FaBars */}
+        <FaBars />
       </button>
 
       {/* Mobile Menu */}
@@ -64,12 +67,12 @@ const Navbar = () => {
           open ? "flex" : "hidden"
         } absolute top-[60px] left-0 w-full bg-black shadow-md py-6 flex-col items-center gap-4 px-5 text-sm md:hidden text-white`}
       >
-        <a href="/" className="hover:text-indigo-400">Home</a>
-        <a href="/products" className="hover:text-indigo-400">Products</a>
-        <a href="/blog" className="hover:text-indigo-400">Blog</a>
-        <a href="/about" className="hover:text-indigo-400">About</a>
-        <a href="/contact" className="hover:text-indigo-400">Contact</a>
-        <a href="/cart" className="hover:text-indigo-400">Cart</a>
+        <a href="/" className="hover:text-[#ff7f32]">Home</a>
+        <a href="/products" className="hover:text-[#ff7f32]">Products</a>
+        <a href="/blog" className="hover:text-[#ff7f32]">Blog</a>
+        <a href="/about" className="hover:text-[#ff7f32]">About</a>
+        <a href="/contact" className="hover:text-[#ff7f32]">Contact</a>
+        <a href="/cart" className="hover:text-[#ff7f32]">Cart</a>
 
         {/* Mobile Login Button */}
         <button className="cursor-pointer px-6 py-2 mt-2 bg-white text-black hover:bg-gray-200 transition rounded-full text-sm font-semibold">

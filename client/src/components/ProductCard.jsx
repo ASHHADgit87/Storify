@@ -2,7 +2,9 @@ import React from 'react'
 
 const ProductCard = () => {
   return (
-    <div>ProductCard</div>
+    <div>
+     <h1>ProductCard</h1>
+    </div>
   )
 }
 

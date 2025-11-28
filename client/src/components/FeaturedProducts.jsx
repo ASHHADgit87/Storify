@@ -21,8 +21,6 @@ const FeaturedProducts = () => {
     { id: 15, name: "Study Table", brand: "FurniMax", price: "$140.00", image: assets.table1 },
     { id: 16, name: "Casual T-shirt", brand: "CottonClub", price: "$30.00", image: assets.tshirt1 },
   ];
-
-  // Local state to track product quantities
   const [cart, setCart] = useState({});
 
   const increaseQty = (id) => {
@@ -34,9 +32,8 @@ const FeaturedProducts = () => {
 
   const decreaseQty = (id) => {
     setCart((prev) => {
-      if (!prev[id]) return prev; // nothing to decrease
+      if (!prev[id]) return prev;
       if (prev[id] === 1) {
-        // remove product from cart when qty = 0
         const newCart = { ...prev };
         delete newCart[id];
         return newCart;
@@ -47,11 +44,10 @@ const FeaturedProducts = () => {
 
   return (
     <div className="section-p1 relative py-12 bg-black text-white">
-      {/* Title */}
+      
       <h2 className="text-3xl font-extrabold text-center">Featured Products</h2>
       <p className="text-gray-400 text-center">Our most latest products - here for you</p>
 
-      {/* Products Grid */}
       <div className="pro-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-6 pt-8 relative z-10">
         {featured.map((item) => {
           const qty = cart[item.id] || 0;
@@ -61,14 +57,12 @@ const FeaturedProducts = () => {
               key={item.id}
               className="group relative rounded-2xl shadow-md overflow-hidden cursor-pointer"
             >
-              {/* Full Image */}
+              
               <img
                 src={item.image}
                 alt={item.name}
                 className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
               />
-
-              {/* Overlay with details */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-4">
                 <span className="text-gray-300 text-xs">{item.brand}</span>
                 <h5 className="text-sm font-semibold truncate">{item.name}</h5>
@@ -77,8 +71,6 @@ const FeaturedProducts = () => {
                 </div>
                 <h4 className="text-[#ff7f32] font-bold text-sm">{item.price}</h4>
               </div>
-
-              {/* Cart / Qty Buttons */}
               {qty === 0 ? (
                 <button
                   onClick={() => increaseQty(item.id)}

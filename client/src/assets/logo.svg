@@ -1,15 +1,15 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165 35" width="165" height="35">
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
 	<defs>
-		<image  width="41" height="29" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAdAQMAAAANRdcOAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA/38ye4+5mwAAAAJ0Uk5TAP9bkSK1AAAAi0lEQVR4nGNkYP7DyMDAyMD+46ADkJJ7CKZsV4qxACnLaQaMQKqwj+GjACNDfQPDTw5G/g8MIEr+AZS6YACibvL/+MvCaL9Q/wOIarFhAFEdFgxIvCY7hv9MjPWJ8QdAVKX6AxBVL/gBSjEwwqj/jf0Qav8BEPWXmYGhkfE/AwMmBXISiGKQf/BRAAC2YD2eTuhOQQAAAABJRU5ErkJggg=="/>
+		<image  width="239" height="159" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAO8AAACfAQMAAAArnBw7AAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA/38ye4+5mwAAAAJ0Uk5TAP9bkSK1AAAD00lEQVR4nM3YvY4TMRAAYDtZKYsQSkq6XcQD0FBQIG2OvAj3CFcigTZbUd4rwCNceQW6BF1BSXsFIttBgUi6RMrG2OOxPf7ZgOBArIS4y6fYY69nbB9n5KkWmwnzHk5+Hu6ZGPRzsWJsOe1lIf8FrROWbUdOeLyG/5p5mqtFl9Vz/+uEBWuaA/ODdzzcdxm0z5M82m4m1YL5Y3NcrJp5rcJqyxRXC84Pgn+5v8tTXL/KRtvd69Oiy1Isdvl4vbw6O68HCeaHtixWvLp4tOIJHm2X0+pqUF0U6xSP5af1i7y4ubsn02q5+DxgYjMpbu4cyMAdf8qge8UvryOuLvPhfjkdf83F+l4WcX02GW2b+fibfGvd448hi7ZU0WmeXgfMZUDj7wPJD1ese/Y+4KEcjoxOL5ludjL3ebTlKjrDb8sEX0xgMUu+zH1W/crg9WrtZu8yn1W/9WkpmOYFD/gml2OrVoZxYg2rfsWHJ8ww0wueMD+YKdKsGjAs+z3KJ1NMoiSL5WzPjnAj5gG3JeE3z1k/u7B+h+FNBKwSXfNoy46xYMfYbzrkoGnDKpEVQ9L38nDPjnHU9q+xqhLcVsO/zbtcx6FZVU/KaprAPTZTCrW2n2Hl97Iu1JihipU51mU+ZqjSZpPABI4YN4E+xjJNWbZnuS2B4ZcEYyGNWS8WXNHwS8xme6Is58mw2SFgScds9peYhZszzLWYcVwey88MQyk4tA96WA1b/nD9NM1eOlDW3XlrDlmGi6xmxeVpkvG9p1hNmktUyhBRkuVM/iuOIpcfcsyLLDFun12VSHK4GwTsYkOWU8kxqxTbdxIxLFT7RtNsW49YZ4FpHVm9Lxwu5JBpvYdNXY9Zb6k4rzG3JenccDM3rLMEO6dcmQlkdl5jxgTWI48ZQ8emkJdTyzo2HUiCdYLr0CnjROvOacH2WE+MObeYDh3DyPsZWveqA7DdXuGdil6Gzj3eTAhD5/0MI6dV0We3mAmTxR/xLicMI7td1tO4KlPcZcjqnAeheeO23NTH+XytpyVkvQBUhG0ZvjExMAzH3COsH385GLa3qJ+wvxRlSK60qMdfyBH7aRCxn0SG7R3LT0HWcGjOsj2fe2wiD9LfsLn/YdWNGHdYrNmWl9wrDkHhskxOREmGr5vtwnJrWI3NbgcJpg/h6Ax7e7z5QxaxOt79v9xx/z4TceLm4HN0LQk4uh1YFjpzgwBCDgKImdFVE/QND7lBkPR334lOe7ADk0f4rA/B5PH2b3oP9QIAbksWMR6wJOukDBkCkIwFIWY5Q93sCutBguVF3/7d4QcSkSr7hQR6WQAAAABJRU5ErkJggg=="/>
 	</defs>
 	<style>
 		tspan { white-space:pre } 
-		.t0 { font-size: 30px;fill: #ff7f32;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
-		.t1 { font-size: 30px;fill: #ffffff;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+		.t0 { font-size: 150px;fill: #ff7f32;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+		.t1 { font-size: 150px;fill: #ffffff;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
 	</style>
-	<text id="Storify" style="transform: matrix(1,0,0,1,49.636,28.137)" >
-		<tspan x="0" y="0" class="t0">S</tspan><tspan  y="0" class="t1">torif</tspan><tspan  y="0" class="t1">y
+	<use id="Background" href="#img1" x="17" y="18"/>
+	<text id="Text layer 1" style="transform: matrix(1,0,0,1,281,156)" >
+		<tspan x="0" y="0" class="t0">S</tspan><tspan  y="0" class="t1">t</tspan><tspan  y="0" class="t1">o</tspan><tspan  y="0" class="t1">r</tspan><tspan  y="0" class="t1">i</tspan><tspan  y="0" class="t1">f</tspan><tspan  y="0" class="t1">y
 </tspan>
 	</text>
-	<use id="Shape 1" href="#img1" x="5" y="3"/>
 </svg>

@@ -3,6 +3,12 @@ import backpack2 from "./backpack2.jpg";
 import backpack3 from "./backpack3.jpg";
 import backpack4 from "./backpack4.jpg";
 
+import feature1 from "./f1.png";
+import feature2 from "./f2.png";
+import feature3 from "./f3.png";
+import feature4 from "./f4.png";
+import feature5 from "./f5.png";
+import feature6 from "./f6.png";
 
 import chair1 from "./chair1.jpg";
 import chair2 from "./chair2.jpg";
@@ -164,6 +170,12 @@ export const assets = {
   heroimage4,
   heroimage5,
   heroimage6,
+  feature1,
+  feature2,
+  feature3,
+  feature4,
+  feature5,
+  feature6,
   app,
   play,
   logo,
